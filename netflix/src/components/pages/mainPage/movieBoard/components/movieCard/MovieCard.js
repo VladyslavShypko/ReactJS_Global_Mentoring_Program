@@ -23,8 +23,8 @@ export default class MovieCard extends Component{
 }
 
 MovieCard.propTypes = {
-  src: PropTypes.string,
-  title: PropTypes.string,
-  release: PropTypes.string,
-  category: PropTypes.string,
+  src: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  release: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
 }
