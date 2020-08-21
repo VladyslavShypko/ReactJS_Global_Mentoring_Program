@@ -1,0 +1,58 @@
+ const movies = [
+    {
+      id: 'movie1',
+      url: 'https://i.ibb.co/YQvVhh2/img1.jpg',
+      title: 'title 1',
+      release: '2010-06-01',
+      genre: 'Action & Drama',
+      overview: 'overview1',
+      runtime: '1:26:00',
+  },
+    {
+      id: 'movie2',
+      url: 'https://i.ibb.co/s3y6W9H/img2.jpg',
+      title: 'title 2',
+      release: '2011-08-13',
+      genre: 'Action & Drama',
+      overview: 'overview2',
+      runtime: '1:27:00',
+    },
+    {
+      id: 'movie3',
+      url: 'https://i.ibb.co/yPN5ZX9/img3.jpg',
+      title: 'title 3',
+      release: '2015-01-25',
+      genre: 'Action & Drama',
+      overview: 'overview3',
+      runtime: '1:28:00',
+    },
+    {
+      id: 'movie4',
+      url: 'https://i.ibb.co/s5ZNJxp/img4.jpg',
+      title: 'title 4',
+      release: '2017-11-09',
+      genre: 'Action & Drama',
+      overview: 'overview4',
+      runtime: '1:29:00',
+    },
+    {
+      id: 'movie5',
+      url: 'https://i.ibb.co/4PxNgYB/img5.jpg',
+      title: 'title 5',
+      release: '2018-02-18',
+      genre: 'Action & Drama',
+      overview: 'overview5',
+      runtime: '1:30:00',
+    },
+    {
+      id: 'movie6',
+      url: 'https://i.ibb.co/Fnz4Pr8/kinopoisk-ru.jpg',
+      title: 'title 6',
+      release: '2016-09-09',
+      genre: 'Action & Drama',
+      overview: 'overview6',
+      runtime: '1:31:00',
+    },
+  ];
+
+  export default movies;

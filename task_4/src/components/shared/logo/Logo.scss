@@ -1,0 +1,18 @@
+@import "../../../variables.scss";
+
+.logo-wrap {
+    color: $pink-color;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 2000;
+    .logo {
+        margin: 20px 0;
+        .roulette {
+            font-weight: 100;
+            font-size: 23px;
+        }
+    }
+}
+
