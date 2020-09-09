@@ -1,0 +1,33 @@
+@import '../../../variables.scss';
+
+.main-page-wrapper {
+  position: relative;
+  z-index: 200;
+}
+
+.blur {
+  filter: blur(10px);
+  position: fixed;
+}
+
+.main-page-background-modal {
+  background-color: $primary-grey-color;
+  position: absolute;
+  z-index: 210;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.7;
+  display: none;
+}
+
+.display-background {
+  display: block;
+  position: fixed;
+  z-index: 210;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

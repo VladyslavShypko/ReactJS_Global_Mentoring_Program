@@ -1,0 +1,58 @@
+ const movies = [
+    {
+      id: 'movie1',
+      url: 'https://i.ibb.co/YQvVhh2/img1.jpg',
+      title: 'Title 1',
+      release: '2010-06-01',
+      genre: 'Action & Drama',
+      overview: "When twelve-year-old African-American girl Monique Watson goes missing in Brooklyn, the police are apathetic and her father Michael is distraught. Out of options, Michael teams up with Christian Baker, the journalist assigned to Monique's story. With public interest waning and time running out, Michael and Christian race to uncover the truth -- and find Monique, before it's too late.",
+      runtime: '104',
+  },
+    {
+      id: 'movie2',
+      url: 'https://i.ibb.co/s3y6W9H/img2.jpg',
+      title: 'Title 2',
+      release: '2011-08-13',
+      genre: 'Action & Drama',
+      overview: "When twelve-year-old African-American girl Monique Watson goes missing in Brooklyn, the police are apathetic and her father Michael is distraught. Out of options, Michael teams up with Christian Baker, the journalist assigned to Monique's story. With public interest waning and time running out, Michael and Christian race to uncover the truth -- and find Monique, before it's too late.",
+      runtime: '137',
+    },
+    {
+      id: 'movie3',
+      url: 'https://i.ibb.co/yPN5ZX9/img3.jpg',
+      title: 'Title 3',
+      release: '2015-01-25',
+      genre: 'Action & Drama',
+      overview: "When twelve-year-old African-American girl Monique Watson goes missing in Brooklyn, the police are apathetic and her father Michael is distraught. Out of options, Michael teams up with Christian Baker, the journalist assigned to Monique's story. With public interest waning and time running out, Michael and Christian race to uncover the truth -- and find Monique, before it's too late.",
+      runtime: '95',
+    },
+    {
+      id: 'movie4',
+      url: 'https://i.ibb.co/s5ZNJxp/img4.jpg',
+      title: 'Title 4',
+      release: '2017-11-09',
+      genre: 'Action & Drama',
+      overview: "When twelve-year-old African-American girl Monique Watson goes missing in Brooklyn, the police are apathetic and her father Michael is distraught. Out of options, Michael teams up with Christian Baker, the journalist assigned to Monique's story. With public interest waning and time running out, Michael and Christian race to uncover the truth -- and find Monique, before it's too late.",
+      runtime: '111',
+    },
+    {
+      id: 'movie5',
+      url: 'https://i.ibb.co/4PxNgYB/img5.jpg',
+      title: 'Title 5',
+      release: '2018-02-18',
+      genre: 'Action & Drama',
+      overview: "When twelve-year-old African-American girl Monique Watson goes missing in Brooklyn, the police are apathetic and her father Michael is distraught. Out of options, Michael teams up with Christian Baker, the journalist assigned to Monique's story. With public interest waning and time running out, Michael and Christian race to uncover the truth -- and find Monique, before it's too late.",
+      runtime: '91',
+    },
+    {
+      id: 'movie6',
+      url: 'https://i.ibb.co/Fnz4Pr8/kinopoisk-ru.jpg',
+      title: 'Title 6',
+      release: '2016-09-09',
+      genre: 'Action & Drama',
+      overview: "When twelve-year-old African-American girl Monique Watson goes missing in Brooklyn, the police are apathetic and her father Michael is distraught. Out of options, Michael teams up with Christian Baker, the journalist assigned to Monique's story. With public interest waning and time running out, Michael and Christian race to uncover the truth -- and find Monique, before it's too late.",
+      runtime: '157',
+    },
+  ];
+
+  export default movies;

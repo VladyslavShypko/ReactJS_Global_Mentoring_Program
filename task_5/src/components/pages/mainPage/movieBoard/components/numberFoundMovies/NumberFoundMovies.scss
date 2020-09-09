@@ -1,0 +1,13 @@
+@import '../../../../../../variables.scss';
+
+.number-films {
+  color: $light-grey-color;
+  margin-left: 50px;
+  font-size: 15px;
+
+  span {
+    font-size: 19px;
+    margin-right: 5px;
+    color: $white-color;
+  }
+}
