@@ -1,0 +1,25 @@
+@import '../../../../../../variables.scss';
+
+.add-button-wrap {
+  position: relative;
+  align-self: flex-end;
+
+  .add-button {
+    border: none;
+    background-color: $light-grey-color;
+    opacity: 0.7;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .add-button-text {
+      color: $pink-color;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}

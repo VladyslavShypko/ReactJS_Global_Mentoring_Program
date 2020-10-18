@@ -1,0 +1,35 @@
+@import '../../../variables.scss';
+
+.error-container {
+    height: calc(100vh - 70.55px);
+    background-color: $primary-grey-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .error-header {
+        color: $white-color;
+        font-weight: 100;
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .error-number {
+        color: $white-color;
+        font-size: 200px;
+        font-weight: 700;
+        margin: 40px 0;
+        letter-spacing: 20px;
+    }
+
+    button {
+        border: 1px solid $pink-color;
+        border-radius: 3px;
+        background-color: transparent;
+        padding: 10px 20px;
+        color: $pink-color;
+        font-weight: 100;
+        cursor: pointer;
+    }
+}

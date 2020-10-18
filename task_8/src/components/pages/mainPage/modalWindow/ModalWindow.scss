@@ -1,0 +1,192 @@
+@import '../../../../variables.scss';
+
+.modal-window-wrapper {
+  position: absolute;
+  z-index: 1000;
+  background-color: $primary-grey-color;
+  top: 100px;
+  width: 60vw;
+  left: 20vw;
+  color: $white-color;
+  margin-bottom: 150px;
+
+  .close-modal {
+    font-size: 24px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin: 0;
+    z-index: 2100;
+    cursor: pointer;
+  }
+
+  .movie-form {
+    padding: 70px;
+
+    h1 {
+      margin: 0;
+      font-weight: 100;
+      letter-spacing: 2px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 2000;
+
+    .movie-id-title {
+      color: $pink-color;
+      margin-bottom: 0;
+    }
+
+    .movie-id {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .error {
+      color: red;
+      margin-top: 5px;
+      margin-bottom: 0;
+      font-weight: 100;
+    }
+
+    label {
+      color: $pink-color;
+      margin-bottom: 8px;
+      margin-top: 25px;
+    }
+
+    input, select {
+      height: 40px;
+      border-radius: 3px;
+      border: none;
+      background-color: $medium-grey-color;
+      font-size: 15px;
+      color: $white-color;
+    }
+
+    input {
+      padding-left: 20px;
+    }
+
+    select {
+      padding: 0 20px;
+    }
+
+    input[type="date"] {
+      position: relative;
+      padding-right: 20px;
+
+      &::-webkit-calendar-picker-indicator {
+        color: transparent;
+        background: none;
+        z-index: 1;
+      }
+
+      &:after {
+        font-family: 'FontAwesome';
+        content: '\f073';
+        color: $pink-color;
+        font-size: 20px;
+        right: 20px;
+        position: absolute;
+      }
+    }
+
+    .checkboxes {
+      display: flex;
+      flex-direction: column;
+      height: 120px;
+      position: absolute;
+      z-index: 2100;
+      bottom: 145px;
+      background-color: $primary-grey-color;
+      left: 0;
+      right: 0;
+      -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
+      overflow-y: scroll;
+
+      input {
+        margin-bottom: 0;
+        padding-left: 20px;
+        height: auto;
+      }
+
+      label {
+        padding-left: 20px;
+        margin: 5px 0;
+        color: $white-color;
+        font-weight: 300;
+      }
+
+    }
+
+    .buttons-group {
+      align-self: flex-end;
+      margin-top: 40px;
+
+      .reset, .submit {
+        border-radius: 3px;
+        padding: 10px 24px;
+        font-size: 16px;
+        border: 1px solid $pink-color;
+        cursor: pointer;
+      }
+
+      .reset {
+        color: $pink-color;
+        background-color: transparent;
+        margin-right: 20px;
+        position: relative;
+        z-index: 110000;
+      }
+
+      .submit {
+        color: $white-color;
+        background-color: $pink-color;
+      }
+    }
+  }
+
+    .confirm-deleting {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        letter-spacing: 1px;
+        font-weight: 300;
+      }
+
+      button {
+        color: $white-color;
+        background-color: $pink-color;
+        border-radius: 3px;
+        padding: 10px 24px;
+        font-size: 16px;
+        border: 1px solid $pink-color;
+        align-self: flex-end;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.open {
+  display: block;
+}
+
+.close {
+  display: none;
+}
+
+.openGenres {
+  visibility: visible;
+}
+
+.closeGenres {
+  visibility: hidden;
+}
